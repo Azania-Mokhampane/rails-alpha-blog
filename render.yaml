@@ -1,7 +1,7 @@
 databases:
   - name: alpha-blog
-    databaseName: alpha-blog
-    user: alpha-blog
+    databaseName: alpha_blog
+    user: alpha_log
     plan: free
 
 services:
