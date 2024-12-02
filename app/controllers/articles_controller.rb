@@ -1,5 +1,4 @@
 class ArticlesController < ApplicationController
-
   def show
     # debugger
     # instance variable so that we can access it in the view or throughout the application
