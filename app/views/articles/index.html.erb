@@ -1,0 +1,28 @@
+<h1>List Of Articles</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Added At</th>
+            <th>Last Updated At</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% @articles.each do |article| %>
+        <tr>
+            <td><%= article.title %> </td>
+            <td><%= article.description %> </td>
+            <td><%= article.created_at %> </td>
+            <td><%= article.updated_at %> </td>
+            <td>
+                <button>Show</button>
+                <button>Edit</button>
+                <button>Delete</button>
+            </td>
+        </tr>
+        <% end %>
+    </tbody>
+</table>
